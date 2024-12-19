@@ -13,3 +13,5 @@ $routes->get('(:segment)', [Pages::class, 'view']);
 
 $routes->get('news', [News::class, 'index']);
 $routes->get('news/(:segment)', [News::class, 'show']);
+
+/*  */
